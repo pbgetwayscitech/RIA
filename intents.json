@@ -1,0 +1,33 @@
+{
+    "intents": [
+
+        {
+            "tag" : "greetings",
+            "patterns" :["Hello","Hi","Hi ria","Hello RIA","Hey Baby","Bebs"],
+            "responses" : ["Hello Pappu","Hi Pappu","What's Up Dear"],
+            "context" : ["greetings"]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "I ate a clock yesterday, it was very time-consuming",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        }
+    ]
+}
+
